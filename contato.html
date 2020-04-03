@@ -26,16 +26,16 @@
 
             <form>
                 <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="youremail@domain.com"> 
 
                 <label for="telefone">Telefone</label>
-                <input type="text" name="" id="telefone" class="input-padrao">
+                <input type="tel" name="" id="telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
 
 				<label for="mensagem">Mensagem</label>
-                <textarea cols="63" rows="10" id="mensagem" class="input-padrao"></textarea>
+                <textarea cols="63" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
 				<div>
 					<p>Como prefere o nosso contato?</p>
@@ -44,7 +44,7 @@
 
 					<label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
 					
-					<label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+					<label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked>Whatsapp</label>
 					
 				</div>
 
@@ -57,7 +57,7 @@
 					</select>
 				</div>
 
-				<label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por email?</label>
+				<label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 				
 				<input type="submit" value="Enviar formulário">
 				
