@@ -147,3 +147,38 @@ td, th{
 	border: 1px solid black;
 	padding: 8px 15px;
 }
+
+/* css da pagina inicial*/
+.banner{
+	width: 100%; /*tera 100% da pagina*/
+}
+
+.titulo-principal{
+	text-align: center; /*texto alinhado ao centro*/
+	font-size: 2em; /*tamanho da fonte - sera duas vezes o tamanho normal da fonte*/
+	margin: 0 0 1em; /* uma margem para baixo do tamanho normal de uma fonte --- /margem para cima /margem para os lados/ margem para baixo/*/
+	clear: left; /*vai limpar o float feito na esquerda pela classe utensilios*/
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagembeneficios{
+	width: 60%; /*largura da imagem*/
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0; /*cima - direita - baixo - esquerda*/
+	
+}
