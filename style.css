@@ -191,7 +191,7 @@ td, th{
 
 .mapa { 
 	padding: 3em 0;
-	background: orange;
+	background: linear-gradient(#FEFEFE,#888888);
 }
 
 .mapa-conteudo{
@@ -229,6 +229,11 @@ td, th{
 .itens:first-child{ /*pegar o primeiro elemento da lista*/
 	font-weight: bold;
 }
+
+.itens:before{  /*criar um elemento antes do html*/
+	content: "✭";
+}
+
 
 .imagem-beneficios{
 	width: 60%; /*largura da imagem*/
